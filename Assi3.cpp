@@ -48,7 +48,8 @@ int main(){
 	char val = max;					//initiate character variable val and store integer max value in it
 	if (val == 'A' || val == 'B' || val == 'C' || val == 'D' || val == 'E' || val == 'F') //if max Character is Alphabet then this code will print
 		printf(" is %d",(val-55)+1);		//This will print the Highest base value in string
-	
+	else if(val =='9') {
+		printf(" is 10");
 	else 											//if max Character is Numeric then this code will run
 		printf(" is %c",val+1);						//This will print the Highest base value in string
 
