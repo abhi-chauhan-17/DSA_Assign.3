@@ -36,7 +36,7 @@ int main(){
 	
 	int max = str[0];		//initiate and store the first value of Alphanumeric string in variable max
 	int j;					
-	for(j=0;j<length;j++){		//loop to get the maximum value in the alphanumeric string and store it in high
+	for(j=0;j<length;j++){		//loop to get the maximum value in the alphanumeric string and store it in max
 		if(str[j]>max){
 			max = str[j];		//if find a value which is greater than 1st value in array than it will store in max variable and loops runs again
 		}
